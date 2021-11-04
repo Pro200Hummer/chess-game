@@ -1,0 +1,15 @@
+.chessboard{
+  width: 500px;
+  height: 500px;
+  display: grid;
+  grid-template-columns: repeat(8, 12.5%);
+  grid-template-rows: repeat(8, 12.5%);
+  background-color: #4363ef;
+
+  .whiteColor{
+    background-color: #ebecd0;
+  }
+  .blackColor{
+    background-color: #779556;
+  }
+}
